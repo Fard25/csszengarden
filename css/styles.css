@@ -1,0 +1,95 @@
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightpink;
+}
+
+h1, h2 {
+        text-align: center;
+    }
+
+.supporting h3 {
+    text-align: center;
+    background-color: rgb(255, 170, 184);
+}
+
+h1, h3 {
+    text-decoration: underline ;
+    color: rgb(118, 29, 78);
+}
+
+.intro header {
+    width: 100%;
+}
+
+.intro div {
+    width: 50%;
+}
+
+
+header {
+    background-color: rgb(255, 140, 159);
+    color: cornsilk;
+    padding: 10px 20px;
+}
+
+header h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 250%;
+    color: rgb(118, 29, 78);
+}
+
+.summary {
+
+    padding: 20px 20px;
+    padding-right: 650px;
+    min-height: 380px;
+    background-image: url('../images/Flower.png');
+    background-position: right 100%;
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+
+.preamble {
+    margin-top: -250px;
+}
+
+.preamble h3 {
+    text-align:center
+}
+
+body {
+    background-color: rgb(255, 228, 225);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+    color: rgb(118, 29, 78);
+}
+
+/* 1. Unvisited link */
+a:link {
+  color: rgb(60, 145, 255); 
+}
+
+/* 2. Visited link (already clicked) */
+a:visited {
+  color: #6a0dad;
+}
+
+/* 3. Hover link (mouse pointer over it) */
+a:hover {
+  color: #ff7da8; 
+}
+
+footer { 
+    background-color: rgb(255, 140, 159);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+aside {
+    background-color: lightpink;
+    padding: 10px 20px;
+}
